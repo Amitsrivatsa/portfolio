@@ -453,6 +453,7 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    position: relative;
 }
 
 .contact-info-upper-container {
@@ -478,4 +479,108 @@ article .icon{
 
 .contact-info-container a{
     color: white;
+}
+
+/* CONTACT FORM */
+
+.contact-form{
+    background-color: rgb(250, 249, 246);
+    border: rgb(53, 53, 53) 0.2rem solid;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.form-group{
+    margin-bottom: 2rem;
+    text-align: initial;
+    margin-left: 9.5rem;
+    margin-top: 2rem;
+}
+
+.btn-color-3{
+    background: rgb(53, 53, 53);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem ;
+    width: 8rem;
+    border-radius: 2rem;
+    border: none;
+    margin-left: 25%;
+    font-size: 17px;
+}
+
+.btn-color-3:hover{
+    background: rgb(0, 0, 0);
+}
+
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input{
+    width: 75%;
+    padding: 12px;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 0.2rem;
+    font-size: 17px;
+    margin: auto;
+    resize: vertical;
+}
+
+textarea{
+    width: 75%;
+    padding: 12px;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 0.2rem;
+    font-size: 17px;
+    margin: auto;
+    resize: vertical;
+    height: 10rem;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+  
+textarea::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(53, 53, 53); /* Set the thumb color */
+    border-radius: 5px; /* Add rounded corners to the thumb */
+}
+  
+textarea::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(53, 53, 53); /* Set the hover color */
+}
+
+/* FOOTER */
+
+.top-line {
+    margin-top: 8rem;
+    background: linear-gradient(to right, transparent,rgb(53, 53, 53), transparent); /* Create a gradient background */
+      height: 2px; /* Adjust the height of the partition */
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+      position: relative;  }
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
 }
