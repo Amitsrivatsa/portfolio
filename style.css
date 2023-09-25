@@ -497,7 +497,7 @@ article .icon{
 .form-group{
     margin-bottom: 2rem;
     text-align: initial;
-    margin-left: 9.5rem;
+    margin-left: 10%;
     margin-top: 2rem;
 }
 
@@ -533,7 +533,6 @@ input{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-radius: 0.2rem;
     font-size: 17px;
-    margin: auto;
     resize: vertical;
 }
 
@@ -543,7 +542,6 @@ textarea{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-radius: 0.2rem;
     font-size: 17px;
-    margin: auto;
     resize: vertical;
     height: 10rem;
 }
@@ -568,7 +566,8 @@ textarea::-webkit-scrollbar-thumb:hover {
 /* FOOTER */
 
 .top-line {
-    margin-top: 8rem;
+    position: absolute;
+    margin-top: 20rem;
     background: linear-gradient(to right, transparent,rgb(53, 53, 53), transparent); /* Create a gradient background */
       height: 2px; /* Adjust the height of the partition */
       box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
