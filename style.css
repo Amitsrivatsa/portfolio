@@ -263,7 +263,7 @@ section {
     justify-content: center;
     gap: 0rem;
     height: 100vh;
-    margin-top: 2.5vh;
+    margin-top: 5%;
 }
 
 .about-container{
@@ -319,6 +319,7 @@ section {
 
 #experience{
     position: relative;
+    margin-top: 5%;
 }
 
 .experience-sub-title {
@@ -382,6 +383,7 @@ article .icon{
 
 /* PROJECT */
 #projects{
+    margin-top: 5%;
     position: relative;
 }
 
@@ -454,6 +456,7 @@ article .icon{
     flex-direction: column;
     height: 70vh;
     position: relative;
+    margin-top: 5%;
 }
 
 .contact-info-upper-container {
